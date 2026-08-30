@@ -130,7 +130,6 @@ void listarElementos(EstruturaDados *estrutura) {
     printf("\n");
 }
 
-
 /*
  * BUSCAR UM NUMERO
  * -------------------
@@ -220,14 +219,12 @@ void desenfileirar(EstruturaDados *estrutura) {
 
 // Apenas imprime as opcoes disponiveis para o usuario.
 void mostrarMenu() {
-    printf("\n================ MENU ================\n");
     printf("1 - Inserir um numero\n");
     printf("2 - Listar todos os numeros\n");
     printf("3 - Buscar um numero\n");
     printf("4 - Desempilhar   (remover seguindo a regra da PILHA)\n");
     printf("5 - Desenfileirar (remover seguindo a regra da FILA)\n");
     printf("0 - Sair do programa\n");
-    printf("=======================================\n");
     printf("Digite a opcao desejada: ");
 }
 
