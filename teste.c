@@ -1,6 +1,14 @@
 #include <stdio.h>
-    int main (){
-        float x [53];
-        printf("%zu\n", sizeof(x));
-        return 0;
+#define NUMERT 100
+int a[NUMERT];
+
+int main ()
+{
+    for(int i = 0; i < NUMERT; i++)
+    {
+        a[i] = 12;
+        printf("Valore de i %d, valores de a[] %d\n", i, a[i]);
     }
+    
+    return 0;
+}

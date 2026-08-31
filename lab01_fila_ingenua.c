@@ -66,17 +66,11 @@ void removerIngenuo() {
 }
 
 int main() {
-    printf("========================================\n");
-    printf(" LABORATORIO 1\n");
-    printf(" O problema da fila ingenua (sem indices)\n");
-    printf("========================================\n\n");
-
     printf("Passo 1: inserir 4 valores.\n\n");
     inserir(10);
     inserir(20);
     inserir(30);
     inserir(40);
-    printf("\n");
     mostrarFila();
 
     printf("\nPasso 2: remover 1 elemento e observar o custo.\n\n");
