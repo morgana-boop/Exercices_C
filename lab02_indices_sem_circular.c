@@ -66,18 +66,13 @@ void mostrarEstado() {
 }
 
 int main() {
-    printf("========================================\n");
-    printf(" LABORATORIO 2\n");
-    printf(" Indices inicio/fim, mas ainda sem circularidade\n");
-    printf("========================================\n\n");
-
     printf("Passo 1: encher completamente o vetor (capacidade %d):\n\n", CAPACIDADE_MAXIMA);
     inserir(10);
     inserir(20);
     inserir(30);
     inserir(40);
     inserir(50);
-    printf("\n");
+
     mostrarEstado();
 
     printf("\nPasso 2: remover 2 valores (os mais antigos, pelo 'inicio'):\n\n");
